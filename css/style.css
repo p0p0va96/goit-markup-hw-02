@@ -11,6 +11,7 @@ body {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: #4d5ae5;
 }
 
@@ -20,6 +21,7 @@ body {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: #2e2f42;
 }
 
@@ -44,7 +46,7 @@ body {
   font-style: normal;
 }
 
-.contacts-link {
+.contacts-item {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -122,7 +124,7 @@ body {
   color: #2e2f42;
 }
 
-.team-list {
+.team-member {
   background-color: #ffffff;
 }
 
@@ -175,4 +177,24 @@ body {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
+}
+
+.logo-footer {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.logo-studios {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
 }
