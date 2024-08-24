@@ -1,4 +1,4 @@
-.body {
+body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
@@ -10,17 +10,15 @@
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: #2e2f42;
 }
 
-.logo-color {
+.logo-studio {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: #4d5ae5;
 }
 
@@ -32,31 +30,59 @@
   color: #2e2f42;
 }
 
-.first-link:hover {
+.nav-link:hover {
   color: #404bbf;
 }
 
-.second-link:hover {
-  color: #404bbf;
-}
-
-.third-link:hover {
+.nav-link:focus {
   color: #404bbf;
 }
 
 .contacts-info {
   font-style: normal;
 }
-.contacts-item {
+
+.contacts-link {
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
-
-.hov-address:hover {
+.contacts-link:hover {
   color: #404bbf;
 }
 
-.hov-address:focus {
+.contacts-link:focus {
   color: #404bbf;
+}
+
+.hero {
+  background-color: #2e2f42;
+}
+
+.hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.hero-button {
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.hero-button:hover {
+  background-color: #404bbf;
+}
+
+.hero-button:focus {
+  background-color: #404bbf;
 }
