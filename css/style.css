@@ -50,15 +50,27 @@ body {
 
 .contacts-item {
   font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
 }
+
 .contacts-item:hover {
   color: #404bbf;
 }
 
 .contacts-item:focus {
+  color: #404bbf;
+}
+
+.contacts-link {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.contacts-link:hover {
+  color: #404bbf;
+}
+
+.contacts-link:focus {
   color: #404bbf;
 }
 
